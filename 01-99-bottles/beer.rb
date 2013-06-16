@@ -1,6 +1,4 @@
 class Beer
-  attr_reader :song
-
   def self.song
     (1..99).reverse_each do |number|
       if number > 2
